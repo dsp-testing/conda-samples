@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.21.*            # wildcard: allow any patch version 1.21.x
+  - conda-forge::pandas=1.3.5  # use pandas from conda-forge channel
+  - pip                      # include pip section
+  - pip:
+    - Flask-Testing          # pip dependency inside Conda environment

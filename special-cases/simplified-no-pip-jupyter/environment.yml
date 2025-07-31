@@ -1,0 +1,7 @@
+name: PythonBasics
+channels:
+  - defaults
+dependencies:
+  - anyio=4.2.0
+  - appnope=0.1.3
+  - argon2-cffi=21.3.0

@@ -1,0 +1,17 @@
+name: xcube
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python >=3.8
+  - gdal >=3.0
+  - tornado >=6.0
+  - xarray >=0.19
+  - requests-mock >=1.8.0
+  - setuptools >=41.0
+  - fiona >=1.8
+  - pyproj >=3.0,<3.3  # tests fail with 3.3.0
+  - pip
+  - pip:
+    - rfc3339-validator

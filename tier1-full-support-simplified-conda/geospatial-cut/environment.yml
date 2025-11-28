@@ -5,7 +5,7 @@ channels:
 dependencies:
   # Python
   - python >=3.8
-  - gdal >=3.0
+  # - gdal >=3.0
   - tornado >=6.0
   - xarray >=0.19
   - requests-mock >=1.8.0
